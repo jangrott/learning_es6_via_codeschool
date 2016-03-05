@@ -1,6 +1,6 @@
 {
-  "name": "learn_es6",
-  "description": "Learn es6 via codeschool",
+  "name": "learning_es6",
+  "description": "Learning es6 via codeschool",
   "version": "1.0.0",
   "scripts": {
     "build": "babel --presets es2015,stage-0 src/ -d buid/"

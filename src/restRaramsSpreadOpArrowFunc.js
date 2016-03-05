@@ -60,7 +60,7 @@
 
         Component.prototype.render = function() {
           get(this.source, (data) => {
-            this.target.value = data; // TypeError: Cannot read property 'target' of undefined
+            this.target.value = data;
           })
         }
 
@@ -71,7 +71,7 @@
         let component = new Component({value: ''}, 'localhost');
         component.render();
       })();
-      
+
     })();
 
   })();
