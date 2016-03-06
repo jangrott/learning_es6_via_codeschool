@@ -30,8 +30,8 @@
       console.log(additionalInfo.age);
     };
 
-    getProfile('Tomasz', {'countryCode': 'PL', 'age': '27'});
-    getProfile('Tomasz', {'countryCode': 'PL'}); // age undefined
+    getProfile('Tomasz', {countryCode: 'PL', age: '27'});
+    getProfile('Tomasz', {countryCode: 'PL'}); // age undefined
     //getProfile('Tomasz'); // TypeError: Cannot read property 'countryCode' of undefined
   })();
 
@@ -42,8 +42,8 @@
       console.log(age);
     };
 
-    getProfile('Tomasz', {'countryCode': 'PL', 'age': '27'});
-    getProfile('Tomasz', {'countryCode': 'PL'}); // age undefined
+    getProfile('Tomasz', {countryCode: 'PL', age: '27'});
+    getProfile('Tomasz', {countryCode: 'PL'}); // age undefined
     getProfile('Tomasz'); // countryCode undefined, age undefined
   })();
 
